@@ -255,7 +255,7 @@ export const Navbar = () => {
                               </DisclosureButton>
                               <DisclosurePanel className="">
                                 <div className="p-3">
-                                  {menu.children.map((child, childIndex) => (
+                                  {menu.children?.map((child, childIndex) => (
                                     <a
                                       key={childIndex}
                                       className="block rounded-lg py-2 px-3 transition hover:bg-white/5"
